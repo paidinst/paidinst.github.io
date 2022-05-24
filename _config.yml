@@ -4,3 +4,8 @@ paginate:       9
 markdown: kramdown
 kramdown:  
   parse_block_html: true
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:name
