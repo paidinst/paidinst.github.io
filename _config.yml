@@ -10,4 +10,3 @@ collections:
     output: true
     permalink: /:collection/:name
     
-paginate_path: /blog
