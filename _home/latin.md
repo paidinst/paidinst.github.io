@@ -7,6 +7,7 @@ color: na
 author: Tom Hendrickson
 bio: Tom Hendrickson received his Ph.D. in Classics at UC Berkeley, followed by a Rome Prize at the American Academy and a post-doc at the Scuola Normale Superiore di Pisa. Hendrickson has taught at a variety of institutions, including College Possible (through Americorps) and San Quentin State Prison (through the Prison University Project). He now teaches at Stanford Online High School.
 date: 2022-05-24
+url: https://paidinst.github.io/about
 ---
 
 
