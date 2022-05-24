@@ -9,5 +9,11 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
-   
+   home:
+    output: true
+    permalink: /:collection/:name
+   news:
+    output: true
+    permalink: /:collection/:name 
+    
 paginate_path: /blog/page:num/
