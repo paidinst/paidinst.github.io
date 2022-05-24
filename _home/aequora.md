@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The Next Generation of Classics Publishing
-teaser: Print-on-Demand Editions Can Bring New Authors and Approaches To The Classroom
-featured: https://miro.medium.com/max/1400/1*-VXWVa8kl5URXkwlgwDtCA.jpeg
+title: Aequora
+teaser: The Paideia Institute partners with universities, schools, and community organizations to offer introductory Latin classes for elementary and middle school students. 
+featured: https://assets.nationbuilder.com/paideiainstitute/pages/668/attachments/original/1505485442/schools.jpg?1505485442
 color: na
 author: Tom Hendrickson
 bio: Tom Hendrickson received his Ph.D. in Classics at UC Berkeley, followed by a Rome Prize at the American Academy and a post-doc at the Scuola Normale Superiore di Pisa. Hendrickson has taught at a variety of institutions, including College Possible (through Americorps) and San Quentin State Prison (through the Prison University Project). He now teaches at Stanford Online High School.
