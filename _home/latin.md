@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Next Generation of Classics Publishing
+title: Living Latin in Caput Mundi
 teaser: Print-on-Demand Editions Can Bring New Authors and Approaches To The Classroom
 featured: https://miro.medium.com/max/1400/1*-VXWVa8kl5URXkwlgwDtCA.jpeg
 color: na
