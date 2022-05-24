@@ -1,6 +1,6 @@
 ---
 layout: page
-featured: https://web.archive.org/web/20220114180646im_/https://solar.lowtechmagazine.com/dithers/solar-powered-server-detail-2.png
+featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/1157/attachments/original/1579647077/gala_spread.jpg?1579647077
 title: About Paideia 
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
 permalink: about
