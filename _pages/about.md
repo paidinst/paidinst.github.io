@@ -4,6 +4,7 @@ featured: https://web.archive.org/web/20220114180646im_/https://solar.lowtechmag
 title: About Paideia 
 teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
 permalink: about
+update: 2022-03-24
 ---
 
 The Paideia Institute for Humanistic Study, Inc. is a non-profit educational organization dedicated to promoting the study and appreciation of the classical humanities, with a focus on Latin and Ancient Greek languages and literature.
