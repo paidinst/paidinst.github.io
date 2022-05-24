@@ -9,7 +9,7 @@ layout: home
 
 
  <ul class="cols cover {{home.color}}">
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+≈
  <li>
  <a href="{{ home.url }}" rel="bookmark" title="Permalink to The Revenge of the Hot Water Bottle">
 <h2 class="entry-title"> {{ home.title }}</h2>
@@ -24,4 +24,26 @@ layout: home
                     </a>
                 </li>
 {% endfor %}
+            </ul>
+
+{% assign home = site.home | sort: 'date' | reverse %}
+{% for home in home offset:1 %}
+ <ul class="cols recent">
+  {% assign home = site.home | sort: 'date' | reverse %}
+                        
+                <li class="{{ home.color }}">
+                    <article>
+                        <a href="{{ home.url }}" rel="bookmark" title="Permalink to The Printed Website: Volume III &amp; The Comments">
+                            <div class="featured-img" style="background-image: url('{{ home.featured }}');"></div>
+                            <h2 class="entry-title">
+                            {{ home.title }}
+                            
+                            </h2>
+                        </a>
+                        <a class="category" href="https://web.archive.org/web/20220305191730/https://solar.lowtechmagazine.com/low-tech-solutions.html">Low-tech solutions</a>
+                        <p class="index-summary">{{ home.teaser }}</p>
+                        <time class="published" datetime="2021-12-02T00:00:00+01:00">{{ home.date | date_to_string }}</time>
+                    </article>
+                </li>
+               {% endfor %}
             </ul>
