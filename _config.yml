@@ -10,7 +10,7 @@ collections:
     output: true
     permalink: /:collection/:name
   home:
-    output: true
+    output: false
     permalink: /:collection/:name
   news:
     output: true
