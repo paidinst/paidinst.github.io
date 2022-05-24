@@ -17,6 +17,8 @@ Since its foundation, Paideia has added several other independent programs inclu
 
 In addition to programming abroad, the Paideia Institute operates online classes through TelePaideia, holds domestic events and conferences for students and teachers of Latin and Greek, and runs outreach initiatives and publications that increase access to and engagement with the classical humanities outside of academia. For more info about the Paideia institute or to join our mailing list, contact us!
 
+<p class="img"><img alt="image" loading="lazy" src="https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/1/attachments/original/1446736031/Rome_Program_Directors.jpg?1446736031"></p>
+
 ## Our Mission
 
 The Paideia Institute promotes the study of the classical humanities through academic programming abroad, US-based outreach, publications, and digital initiatives.
