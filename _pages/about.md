@@ -42,7 +42,7 @@ The Institute also runs several programs and curricular initiatives designed to 
 - Jason Pedicone, President
 - Marco Romani, Treasurer
 - Jonathan Sabo, Secretary
-- 
+
 ### BOARD OF DIRECTORS
 
 - Susan Baumann 
