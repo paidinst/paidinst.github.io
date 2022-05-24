@@ -29,7 +29,6 @@ layout: home
 {% assign home = site.home | sort: 'date' | reverse %}
 {% for home in home offset:1 %}
  <ul class="cols recent">
-  {% assign home = site.home | sort: 'date' | reverse %}
                         
                 <li class="{{ home.color }}">
                     <article>
