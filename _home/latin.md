@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Living Latin in Caput Mundi
-teaser: Print-on-Demand Editions Can Bring New Authors and Approaches To The Classroom
+teaser: Living Latin in Rome is an intensive Latin experience set in the city of Rome. In two seminar-style meetings every day, participants read and discuss Latin literature and Roman history and culture. To the extent possible, the language of instruction in these seminars is Latin. 
 featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/1/attachments/original/1446736031/Rome_Program_Directors.jpg?1446736031
 color: na
 author: Tom Hendrickson
