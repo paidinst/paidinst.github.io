@@ -1,8 +1,8 @@
 ---
 layout: page
 featured: https://web.archive.org/web/20220114180646im_/https://solar.lowtechmagazine.com/dithers/solar-powered-server-detail-2.png
-title: About Slightly Foxed
-teaser: This website is a solar-powered, self-hosted version of Low-tech Magazine. It has been designed to radically reduce the energy use associated with accessing our content.
+title: About Paideia 
+teaser: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru
 ---
 
 The Paideia Institute for Humanistic Study, Inc. is a non-profit educational organization dedicated to promoting the study and appreciation of the classical humanities, with a focus on Latin and Ancient Greek languages and literature.
