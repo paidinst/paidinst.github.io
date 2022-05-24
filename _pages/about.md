@@ -37,6 +37,8 @@ The Paideia Institute believes that the study of the ancient world is most enlig
 
 The Institute also runs several programs and curricular initiatives designed to expand access to the study of Latin and Greek. For more information about our work in this area, please visit our web pages devoted to the Aequora program and the Paideia Institute Greece and Rome Prizes.
 
+## People
+
 ### OFFICERS
 
 - Jason Pedicone, President
