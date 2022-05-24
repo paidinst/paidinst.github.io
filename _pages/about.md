@@ -16,3 +16,10 @@ Living Latin in Rome, Paideia’s flagship program, continues to provide the mag
 Since its foundation, Paideia has added several other independent programs including a Living Latin in Rome program for high school students, Living Greek in Greece, Living Latin in Paris and Caesar in Gaul, and a fellowship for a year of postgraduate study in Rome. Paideia also works with high schools and universities to enhance their offerings in classics in the U.S. and to help them develop study-abroad experiences in Greece, Italy and elsewhere in Western Europe.
 
 In addition to programming abroad, the Paideia Institute operates online classes through TelePaideia, holds domestic events and conferences for students and teachers of Latin and Greek, and runs outreach initiatives and publications that increase access to and engagement with the classical humanities outside of academia. For more info about the Paideia institute or to join our mailing list, contact us!
+
+## Our Mission
+
+The Paideia Institute promotes the study of the classical humanities through academic programming abroad, US-based outreach, publications, and digital initiatives.
+
+Paideia's programs and initiatives reach individuals of all ages and academic levels and are unified by three goals: to provide opportunities for rigorous and intensive study of Latin and Greek from all historical periods, to inspire students to form close personal relationships with the classics through extraordinary learning experiences, and to increase access to and engagement with the classical humanities across all sectors of society. 
+
