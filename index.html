@@ -26,10 +26,10 @@ layout: home
 {% endfor %}
             </ul>
 
-{% assign home = site.home | sort: 'date' | reverse %}
-{% for home in home offset:1 %}
  <ul class="cols recent">
-                        
+  {% assign home = site.home | sort: 'date' | reverse %}
+  {% for home in home offset:1 %}
+                    
                 <li class="{{ home.color }}">
                     <article>
                         <a href="{{ home.url }}" rel="bookmark" title="Permalink to The Printed Website: Volume III &amp; The Comments">
