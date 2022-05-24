@@ -5,7 +5,7 @@ layout: home
 
 
 {% assign home = site.home | sort: 'date' | reverse %}
-{% for home in home %}
+{% for home in home limit:1 %}
 
 
  <ul class="cols cover {{home.color}}">
