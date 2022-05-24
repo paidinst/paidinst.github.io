@@ -9,3 +9,5 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
+    
+paginate_path: /blog/
