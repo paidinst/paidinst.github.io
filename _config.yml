@@ -9,10 +9,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:name
-   home:
+  home:
     output: true
     permalink: /:collection/:name
-   news:
+  news:
     output: true
     permalink: /:collection/:name 
     
