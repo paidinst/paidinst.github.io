@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  {% include head.html %}
+  
+<body>
+<div class="bat_status" data-charging="no" id="bat_data">
+<a href="https://web.archive.org/web/20220114180646/https://solar.lowtechmagazine.com/power.html" title="Power">
+<span id="charge_icon">
+<svg class="icon battery-svg" viewbox="0 0 500 500"><title>Battery used</title><polygon class="svg_stroke" points="327.01 127.16 327.01 47.31 172.99 47.31 172.99 127.16 115.52 127.16 115.52 452.69 384.48 452.69 384.48 127.16 327.01 127.16"></polygon><polygon class="svg_fill" points="357.64 408.86 158.26 408.86 158.26 209.49 357.64 408.86"></polygon></svg>
+<svg class="icon sun-svg" viewbox="0 0 500 500"><title>Battery charging</title><circle class="svg_fill" cx="248.48" cy="252.55" r="97.03"></circle><rect class="svg_fill" height="112.39" width="27.9" x="234.53" y="17.45"></rect><rect class="svg_fill" height="112.39" width="27.9" x="234.53" y="375.25"></rect><rect class="svg_fill" height="112.39" transform="translate(679.92 -174.83) rotate(90)" width="27.9" x="413.42" y="196.35"></rect><rect class="svg_fill" height="112.39" transform="translate(322.12 182.97) rotate(90)" width="27.9" x="55.63" y="196.35"></rect><rect class="svg_fill" height="112.39" transform="translate(198.96 -228.23) rotate(45)" width="27.9" x="361.03" y="69.85"></rect><rect class="svg_fill" height="112.39" transform="translate(303.75 24.77) rotate(45)" width="27.9" x="108.03" y="322.85"></rect><rect class="svg_fill" height="112.39" transform="translate(908.15 381.93) rotate(135)" width="27.9" x="361.03" y="322.85"></rect><rect class="svg_fill" height="112.39" transform="translate(297.35 128.93) rotate(135)" width="27.9" x="108.03" y="69.85"></rect></svg>
+</span>
+<span id="level"></span></a>
+</div>
+<div id="battery">
+</div>
+<main>
+ {% include header.html %}
+  
+  <section class="page" id="content">
+<header>
+<h1 class="page-title">{{ page.title }} </h1>
+<p class="summary">
+      {{ page.teaser }}
+    </p>
+</header>
+<div class="entry-content">
+<p class="img"><img alt="a detail of the solar powered server" loading="lazy" src="{{ page.featured }}"/></p><p class="caption">
+{{ page.caption }}</p>
+<p><em>Last update: {{ page.update }}</em></p>
+
+  <div class="con">
+  {{ page.content }}
+    <br>
+    
+    <h2>Written by {{ page.author }}</h2>
+  <p>{{ page.bio }}</p>
+    
+    <br>
+  </div>
+  
+
+</div>
+</section>
+        {% include footer.html %}
+  <div id="page-size">467.42KB</div>
+</main>
+<script>
+var url = "https://web.archive.org/web/20220114180646/https://solar.lowtechmagazine.com/api/stats.json";
+var data;
+var solar_stats = [];
+var battery_stats = [];
+var general_stats = [];
+
+function loadJSON(callback) {
+
+    var request = new XMLHttpRequest();
+    request.overrideMimeType("application/json");
+    request.open('GET', url, true);
+    request.onreadystatechange = function() {
+        if (request.readyState == 4 && request.status == "200") {
+            callback(request.responseText);
+        }
+    };
+    request.send(null);
+}
+
+loadJSON(function(response) {
+    // Parse JSON string into object
+    data = JSON.parse(response);
+    // console.log(data);
+    setupBatteryMeter(data);
+    populateDashboard(data);
+    populateForecast(data);
+
+    if (window.location.href.indexOf('power.html') > -1) {
+        //load general stats on power page
+        populateData(data);
+    }
+});
+
+function setupBatteryMeter(data) {
+    //setup visible battery level
+    var level = data.charge;
+    var indicator = document.getElementById('bat_data');
+    document.getElementById('battery').style.height = level + '%';
+    indicator.style.top = 100 - parseInt(level) + "vh";
+
+    if (data.charging == "no") {
+        // battery is draining, show battery level
+        document.getElementById('level').textContent = level;
+    } else {
+        // sun is out!
+        indicator.setAttribute('data-charging', 'yes');
+    }
+
+}
+
+function pushData(arr) {
+    // returns a list of dt/dd pairs from a two-dimensional array
+    var stats = [];
+    for (i = 0; i < arr.length; i++) {
+        stats.push("<dt>" + arr[i][0] + "</dt><dd>" + arr[i][1] + "</dd>");
+    }
+    return stats;
+}
+
+function populateData(data) {
+    var load = ((data.load_15 / 2) * 100).toFixed(2) + '%';
+
+    var general_stats = [
+        ["Local time", data.local_time],
+        ["Uptime", data.uptime],
+        ["Power usage", data.W],
+        ["Current draw", data.A],
+        ["Voltage", data.V],
+        ["CPU temperature", data.temperature + "°C"],
+        ["CPU load average *", load],
+        ["Solar panel active", data.charging],
+        ["Battery capacity", data.charge + "%"]
+    ];
+
+    var dl = document.getElementById('server');
+    dl.innerHTML = pushData(general_stats).join("");
+}
+
+
+function populateForecast(data) {
+    var weather_ignore = ["snow", "sleet", "wind", "fog"]; //because Barcelona is paradise
+    var weather_data = ["today", "tomorrow", "day_after_t"];
+    var weather_days = ["today", "tomorrow", "day after tomorrow"];
+    var forecast = "";
+
+    for (i = 0; i < weather_data.length; i++) {
+        var key = weather_data[i]; //for each day
+        var icon_name = key + "_icon"; //today_icon, etc
+        var text = data[key]; //weather description
+        var weather_icon;
+        //use cloud icon for all overcast weather
+        if (weather_ignore.includes(data[icon_name])) {
+            weather_icon = "cloudy";
+        } else {
+            weather_icon = data[icon_name];
+        }
+        forecast += '<span class="weather_day" id="' + key + '" title="' + text + '">' + weather_days[i] + '</span><span class="weather_icon ' + weather_icon + '"> </span><span class="weather_text"> ' + text + '</span>';
+    }
+
+    var weatherinfo = document.querySelectorAll('.forecast');
+
+    [].forEach.call(weatherinfo, function(target) {
+        target.innerHTML = forecast;
+    });
+}
+
+function populateDashboard(data) {
+    var bat_text = "";
+
+    if(data.charging=='no'){
+      bat_text = data.charge + "%, not charging";
+    }else{
+      bat_text = "charging";
+    }
+
+    var footer_data = [
+      ['Location', 'Barcelona'],
+      ['Time', data.local_time],
+      ['Battery status', bat_text],
+      ['Power used', data.W],
+      ['Uptime', data.uptime]
+    ];
+
+    document.getElementById('stats').innerHTML = pushData(footer_data).join("");
+}
+
+//language menu toggle
+var langmenu = document.getElementById('lang-dot');
+langmenu.addEventListener('click', function() {
+    console.log('togglelanguages');
+    document.getElementById('languages').classList.toggle("lang-expanded");
+});
+
+//mobile menu toggle
+var mobilemenu = document.getElementById('menu-s');
+mobilemenu.addEventListener('click', function() {
+    console.log('togglemenu');
+    document.getElementById('menu-list').classList.toggle("show");
+});
+
+//show hide comments
+var comments = document.getElementById("comment-list");
+if(comments){
+    var comment_title = document.getElementById('comments');
+    comment_title.addEventListener('click', function() {
+        console.log('togglecomments');
+        document.getElementById('comments').classList.toggle("expanded");
+        comments.classList.toggle("show");
+    });
+
+    //add comment count into comment title
+    var comment_headers = document.getElementsByTagName("h5");
+    comment_title.innerHTML += '&nbsp;('+comment_headers.length+')';
+}
+
+
+//Remove TYPOGRIFY NBSP;s in headers
+// var headings = document.querySelectorAll('h1');
+// [].forEach.call(headings, function(target) {
+//     target.innerHTML = target.innerHTML.replace(/&nbsp;/g, ' ');
+// });
+
+
+
+
+
+
+</script></body>
+</html>
