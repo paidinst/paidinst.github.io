@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel Programs
+title: "Living Latin in Rome 2022: Rome, Verona, Sirmione"
 teaser: Living Latin in Rome is an intensive Latin experience set in the city of Rome.  July 3rd-July 17th 2022
 featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/275/attachments/original/1450454817/23205104409_7a7a1eea45_z.jpg?1450454817
 permalink: ll
