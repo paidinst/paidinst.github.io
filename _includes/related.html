@@ -1,51 +1,22 @@
 <section id="related">
 <h3 class="related">More from In Media Res</h3>
 <div class="post-info gray">
-
-<ul class="cols">
-<li class="low">
-<article>
-<a href="/" rel="bookmark" title="Permalink to The Printed Website: Volume III &amp; The&nbsp;Comments">
-<div class="featured-img" style="background-image: url('https://solar.lowtechmagazine.com//dithers/all-four-books.png');">
+{% if site.related_posts != empty %}
+  <ul class="cols">
+    {% for post in site.related_posts limit:4 %}
+      <li class="low">
+        <article>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div class="featured-img" style="background-image: url('{{post.featured}}');">
 </div>
-<h2 class="entry-title">The Printed Website: Volume <span class="caps">III</span> <span class="amp">&amp;</span> The&nbsp;Comments</h2></a>
-<a class="category" href="/">Low-tech solutions</a>
-<p class="index-summary">The printed archives of Low-tech Magazine now amount to four volumes with a total of 2,398 pages and 709&nbsp;images.</p>
-<time class="published" datetime="2021-12-02T00:00:00+01:00">December 2021</time>
-</article>
-</li>
-<li class="low">
-<article>
-<a href="/" rel="bookmark" title="Permalink to How to Design a Sailing Ship for the 21st&nbsp;Century?">
-<div class="featured-img" style="background-image: url('https://solar.lowtechmagazine.com//dithers/Garthsnaid_-_SLV_H91.250-933.png');">
-</div>
-<h2 class="entry-title">How to Design a Sailing Ship for the 21st&nbsp;Century?</h2></a>
-<a class="category" href="/">Low-tech solutions</a>
-<p class="index-summary">It is surprisingly difficult to build a carbon neutral sailing ship. This is even more the case today, because our standards for safety, health, hygiene, comfort, and convenience have changed profoundly since the Age of&nbsp;Sail.</p>
-<time class="published" datetime="2021-05-11T00:00:00+02:00">May 2021</time>
-</article>
-</li>
-<li class="low">
-<article>
-<a href="/" rel="bookmark" title="Permalink to Keeping Some of the Lights On: Redefining Energy&nbsp;Security">
-<div class="featured-img" style="background-image: url('https://solar.lowtechmagazine.com//dithers/lighter.png');">
-</div>
-<h2 class="entry-title">Keeping Some of the Lights On: Redefining Energy&nbsp;Security</h2></a>
-<a class="category" href="/">Low-tech solutions</a>
-<p class="index-summary">To improve energy security, we need to make infrastructures less&nbsp;reliable.</p>
-<time class="published" datetime="2018-12-09T00:00:00+01:00">December 2018</time>
-</article>
-</li>
-<li class="obs">
-<article>
-<a href="/" rel="bookmark" title="Permalink to The Revenge of the Hot Water&nbsp;Bottle">
-<div class="featured-img" style="background-image: url('https://solar.lowtechmagazine.com//dithers/hot-water-bottles-bar-terrace.png');">
-</div>
-<h2 class="entry-title">The Revenge of the Hot Water&nbsp;Bottle</h2></a>
-<a class="category" href="/">Obsolete Technology</a>
-<p class="index-summary">Imagine a personal heating system that works indoors as well as outdoors, can be taken anywhere, requires little energy, and is independent of any infrastructure. It exists – and is hundreds of years&nbsp;old.</p>
-<time class="published" datetime="2022-01-20T00:00:00+01:00">January 2022</time>
-</article>
-</li>
-</ul>
+          <h2 class="entry-title">{{ post.title }}</h2></a>
+          <p class="index-summary">{{post.teaser}}</p>
+          <time class="published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+  </div>
 </section>
+
