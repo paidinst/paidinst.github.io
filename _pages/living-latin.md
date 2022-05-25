@@ -75,3 +75,5 @@ The Paideia Institute is able to offer a number of full and partial scholarships
 If this program is canceled due to COVID-19, an online alternative will be offered for the price of the deposit.  If you feel more comfortable doing Living Latin from home in 2022, consider our online offerings through Telepaideia.
 
 ## Request An Application
+
+<div style="text-align: center;color: white;"><a class="button" href="program_application_request_form" style="color: white;background: #5296ca;">Apply</a></div>
