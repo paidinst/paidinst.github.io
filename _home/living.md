@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Classical Tours
-teaser: The Paideia Institute offers logistical planning and support for study abroad trips and programs for high schools & universities. Our staff of trained classicists have had transformational educational experiences abroad and are dedicated to creating such experiences with others. To facilitate student travel, we have developed our Classical Tours service to cover all aspects of educational travel, allowing our partner teachers to concentrate on their teaching and time abroad with their students. 
+teaser: The Paideia Institute offers logistical planning and support for study abroad trips and programs for high schools & universities. Our staff of trained classicists have had transformational educational experiences abroad and are dedicated to creating such experiences with others. 
 featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/32/attachments/original/1619748081/23426257332_3c43b3688a_o.jpg?1619748081
 color: na
 author: Tom Hendrickson
