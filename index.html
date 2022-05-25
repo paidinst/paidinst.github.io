@@ -47,4 +47,29 @@ layout: home
         {% endfor %}       
             </ul>
 
+<hr>
+
+<h3>Recent News</h3>
+
+ <ul class="cols recent">
+  {% assign news = site.news | sort: 'date' | reverse %}
+  {% for news in news limit:4 %}
+                    
+                <li class="{{ news.color }}">
+                    <article>
+                        <a href="{{ news.url }}" rel="bookmark" title="Permalink to The Printed Website: Volume III &amp; The Comments">
+                            <div class="featured-img" style="border: 1px solid #348da8;background-image: url('{{ news.featured }}');"></div>
+                            <h2 class="entry-title">
+                            {{ news.title }}
+                            
+                            </h2>
+                        </a>
+                        <a class="category" href="https://web.archive.org/web/20220305191730/https://solar.lowtechmagazine.com/low-tech-solutions.html">Low-tech solutions</a>
+                        <p class="index-summary">{{ news.teaser }}</p>
+                       <!-- <time class="published" datetime="2021-12-02T00:00:00+01:00">{{ news.date | date_to_string }}</time>-->
+                    </article>
+                </li>
+        {% endfor %}       
+            </ul>
+
 
