@@ -19,11 +19,16 @@ Living Latin in Rome High School offers a holistic immersion experience in the L
 
 The program lasts for two weeks in July. It includes traditional classroom sessions, informal conversational Latin sessions, interactive visits to important historical and literary sites in Rome, the production of a Latin skit to be performed in an assembly of fellow students and friends of the Paideia Institute, and day trips to important sites outside of Rome.
 
+<div style="text-align: center;color: white;"><a class="button" href="/ll" style="color: white;background: #5296ca;">Apply</a></div>
+
+
 ## Living Greek in Greece 
 
 Living Greek in Greece is an intensive Ancient Greek language and literature experience set in the Peloponnese. In two seminar-style meetings every day, participants read and discuss Ancient Greek literature and philosophy. To the extent possible, the language of instruction in these seminars is Attic Greek.
 
 In addition to the daily seminar sessions, the program includes a variety of optional programming designed to build students’ facility in speaking and understanding Greek, as well as lectures on topics relating to Greek philosophy, history and culture. The program also features a trip to an important site in Greece that is relevant to the year’s theme.
+
+<div style="text-align: center;color: white;"><a class="button" href="/ll" style="color: white;background: #5296ca;">Apply</a></div>
 
 ## LIVING GREEK IN GREECE HIGH SCHOOL
 
@@ -33,10 +38,17 @@ Learning Ancient Greek can also help us understand and connect with other modern
 
 The program lasts for two weeks in July. It includes traditional classroom sessions, informal conversational Greek sessions, and interactive visits to many places and sites of ancient and modern significance: Athens, Corinth, Nafplio, Epidaurus, Olympia, and Delphi.
 
+<div style="text-align: center;color: white;"><a class="button" href="/ll" style="color: white;background: #5296ca;">Apply</a></div>
+
 ## LIVING LATIN IN PARIS
 
 Living Latin in Paris is an intensive Latin experience focusing on Medieval Latin and set in Paris. Participants read important Latin texts from the Medieval to the Renaissance period that relate to the city of Paris, the intellectual capital of Medieval Europe. Daily readings are paired with visits to important historical and literary sites in Paris and its environs. Both on site and in the classroom, participants are encouraged to communicate with instructors and each other in Latin. The program's goal is to provide an intensive period of Medieval Latin study while helping participants form strong connections with Medieval Latin literature and culture.
 
+<div style="text-align: center;color: white;"><a class="button" href="/ll" style="color: white;background: #5296ca;">Apply</a></div>
+
+
 ## Caesar in Gaul
 
 Caesar in Gaul is a two-week seminar designed to enhance participants’ appreciation of Julius Caesar and the Gallic Wars. Developed specifically with the AP curriculum in mind, the program includes lectures and seminars led by top scholars who are reshaping the field of Caesar studies today, as well as visits to key sites of the Gallic Wars and other important monuments of Gallo-Roman culture. The first week of the program, focusing on Caesar as a man of letters and the monuments of the Roman provincia, takes place in Aix-en-Provence. In the second week, participants will travel to Lyon and Burgundy for a closer look at Gallic Culture and battle sites from the Gallic Wars.
+
+<div style="text-align: center;color: white;"><a class="button" href="/ll" style="color: white;background: #5296ca;">Apply</a></div>
