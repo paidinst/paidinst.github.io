@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The Next Generation of Classics Publishing
-teaser: Print-on-Demand Editions Can Bring New Authors and Approaches To The Classroom
-featured: https://miro.medium.com/max/1400/1*-VXWVa8kl5URXkwlgwDtCA.jpeg
+title: Classical Tours
+teaser: The Paideia Institute offers logistical planning and support for study abroad trips and programs for high schools & universities. Our staff of trained classicists have had transformational educational experiences abroad and are dedicated to creating such experiences with others. To facilitate student travel, we have developed our Classical Tours service to cover all aspects of educational travel, allowing our partner teachers to concentrate on their teaching and time abroad with their students. 
+featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/32/attachments/original/1619748081/23426257332_3c43b3688a_o.jpg?1619748081
 color: na
 author: Tom Hendrickson
 bio: Tom Hendrickson received his Ph.D. in Classics at UC Berkeley, followed by a Rome Prize at the American Academy and a post-doc at the Scuola Normale Superiore di Pisa. Hendrickson has taught at a variety of institutions, including College Possible (through Americorps) and San Quentin State Prison (through the Prison University Project). He now teaches at Stanford Online High School.
