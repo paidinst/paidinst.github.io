@@ -1,0 +1,23 @@
+<section id="related">
+<h2>Alumni Stories</h2>
+
+ <ul class="cols recent">
+  {% assign stories = site.stories | sort: 'date' | reverse %}
+  {% for stories in stories limit:4 %}
+                    
+                <li class="{{ stories.color }}">
+                    <article>
+                        <a href="{{ stories.url }}" rel="bookmark" title="Permalink to The Printed Website: Volume III &amp; The Comments">
+                            <div class="featured-img" style="border: 1px solid #348da8;background-image: url('{{ stories.featured }}');"></div>
+                            <h2 class="entry-title">
+                            {{ stories.title }}
+                            
+                            </h2>
+                        </a>
+                        <a class="category" href="https://web.archive.org/web/20220305191730/https://solar.lowtechmagazine.com/low-tech-solutions.html">Low-tech solutions</a>
+                        <p class="index-summary">{{ stories.teaser }}</p>
+                    </article>
+                </li>
+        {% endfor %}       
+            </ul>
+  </section>
