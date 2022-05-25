@@ -29,17 +29,25 @@ Classes for Living Latin in Rome take place in classrooms at the Teresianum, a p
 
 ### Elżbieta Górka
 
+<img src="https://assets.nationbuilder.com/paideiainstitute/profile_images/d97e3917a8f6336845311f29ffd96dc4d222c9ff.jpg?1576360101" width="100%" height="100%" style="margin-left:auto;margin-right:auto;max-width: 200px;border-radius: 50%;mix-blend-mode: normal;">
+
 Elżbieta Górka is a Ph.D. student in Literary studies and MA student in psychology at University of Wrocław in Poland. She holds a MA in Classics from the same University. Elżbieta is particularly interested in Neo-Latin literature and is writing her doctoral dissertation on the pastoral poetry of Neo-Latin poet Giovanni Baptista Mantovano. Her other academic interests include Augustan poetry, the image of woman in Latin literature, cognitive psychology and psycholinguistics. In her free time Elżbieta reads English literature from the turn of the 18th and 19th centuries, draws and sings in choirs, collects herbs and hikes in the mountains.
 
 ### Matthew McGowan
+
+<img src="https://assets.nationbuilder.com/paideiainstitute/profile_images/6fc77b730c8101c22644e9cf1f3c0044820d8bed.jpg?1531125436" width="100%" height="100%" style="margin-left:auto;margin-right:auto;max-width: 200px;border-radius: 50%;mix-blend-mode: normal;">
 
 Matthew McGowan is Associate Professor & Chair of Classics at Fordham University and alumnus of Reginald Foster's Fifth Experience (Rome 1998-99). From 2009-2015 he served as President of the NY Classical Club and is currently the Vice-President for Communication and Outreach for the Society of Classical Studies. His scholarly interests range broadly over Greek and Latin literature and the classical tradition. His first book, Ovid in Exile: Power and Poetic Redress in the Tristia and Epistulae ex Ponto, appeared in 2009 with Brill, and he has just completed an edited volume, Classical New York: Greece & Rome in NY's Art and Architecture, for Fordham University Press. He is currently at work on a Guide to the Greek and Latin Inscriptions of New York City alongside a survey of ancient lexicography, Dictionaries in Ancient Rome: The Art of Defining Latin Words, 200 BC--800 AD. He teaches a wide array of courses, from classical myth to Latin prose composition, and is delighted to be working with Paideia and its wonderful students and staff!
 
 ### Tyler Patterson
 
+<img src="https://assets.nationbuilder.com/paideiainstitute/profile_images/e95a609ef7239b20ae89a3dd4e98172d149fac21.jpg?1630941096" width="100%" height="100%" style="margin-left:auto;margin-right:auto;max-width: 200px;border-radius: 50%;mix-blend-mode: normal;">
+
 Tyler is a PhD student in Classics at the University of Southern California in Los Angeles and a Senior Rome Fellow of the Paideia Institute for 2021–22. He is an alumnus of numerous Polis, SALVI, and Paideia Institute programs worldwide and is a passionate advocate for active approaches to ancient languages. Broadly interested in the Latin literary tradition as well as the history and legacy of the Roman world, Tyler’s doctoral work focuses on the representation of the city of Rome in Latin literature, especially from c. 1100 to 1455.
 
 ### Jenny Teichmann
+
+<img src="https://assets.nationbuilder.com/paideiainstitute/profile_images/dbd314d2a3a250fbdb058fccb7a24ad5286edb1f.jpg?1576099853" width="100%" height="100%" style="margin-left:auto;margin-right:auto;max-width: 200px;border-radius: 50%;mix-blend-mode: normal;">
 
 Jenny studied German and Slavic philology in Greifswald, European Cultural History in Frankfurt/Oder, and, finally, Classics at Humboldt University Berlin. She is currently finishing her Master’s thesis – a German translation of the Epicurean philosopher Diogenes of Oinoanda – and plans to pursue a PhD afterwards. She has partaken in major translation projects as the Vulgata Deutsch and a new translation of the Greek Anthology into German. She holds close contact with the Polis Institute, Jerusalem, and is co-founder of the Σύλλογος Ἑλληνικός, a weekly meeting point for Greek enthusiasts in the Berlin area.
 
