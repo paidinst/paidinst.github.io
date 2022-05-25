@@ -8,12 +8,12 @@ layout: blog
                     <a href="{{ post.url }}" rel="bookmark" title="Permalink to The Revenge of the Hot Water Bottle">
                         <h2 class="entry-title"> {{ post.title }}</h2>
                     </a>
-                    <a class="category" href="https://web.archive.org/web/20220305191730/https://solar.lowtechmagazine.com/obsolete-technology.html">Obsolete Technology</a>
+                    <a class="category" href="{{ post.url}}">Obsolete Technology</a>
                     <p class="index-summary">{{ post.teaser }}</p>
                     <time class="published" datetime="2022-01-20T00:00:00+01:00">{{ post.date | date_to_string }}</time>
                 </li>
                 <li>
-                    <a href="https://web.archive.org/web/20220305191730/https://solar.lowtechmagazine.com/2022/01/the-revenge-of-the-hot-water-bottle.html" rel="bookmark" title="Permalink to The Revenge of the Hot Water Bottle">
+                    <a href="{{ post.url}}" rel="bookmark" title="Permalink to The Revenge of the Hot Water Bottle">
                         <div class="featured-img" style="background-image: url('{{ post.featured }}');"></div>
                     </a>
                 </li>
