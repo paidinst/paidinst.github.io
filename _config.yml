@@ -18,5 +18,8 @@ collections:
   lectures:
     output: true
     permalink: /:collection/:name 
+  stories:
+    output: true
+    permalink: /:collection/:name 
     
 paginate_path: /blog/page:num/
