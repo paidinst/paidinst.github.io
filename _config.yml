@@ -15,5 +15,8 @@ collections:
   news:
     output: true
     permalink: /:collection/:name 
+  lectures:
+    output: true
+    permalink: /:collection/:name 
     
 paginate_path: /blog/page:num/
