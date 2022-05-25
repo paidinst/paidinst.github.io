@@ -1,7 +1,57 @@
   <header class="top">
            <h1><a href="/">THE PAIDEIA INSTITUTE</a></h1>
             <div class="subtitle">
-        
+        <form class="form-inline" action="/action_page.php" style="/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+};">
+  
+  <input type="email" id="email" placeholder="Enter email" name="email">
+  
+  
+  
+  <button type="submit">Submit</button>
+</form>
                    <!-- The Paideia Institute for Humanistic Study, Inc. is a non-profit educational organization dedicated to promoting the study and appreciation of the classical humanities, with a focus on Latin and Ancient Greek languages and literature.
              -->
             </div><br>
