@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Telepaideia
-teaser: Telepaideia is a broad collection of online courses, offered by the Institute in 10-week semesters three times a year (Fall, Spring, and Summer terms).  These live classes are each designed and led by a dedicated teacher from the Paideia community and are taught in small groups of approximately five or fewer.  
+teaser: Telepaideia is a broad collection of online courses, offered by the Institute in 10-week semesters three times a year (Fall, Spring, and Summer terms).   
 featured: https://d3n8a8pro7vhmx.cloudfront.net/paideiainstitute/pages/1606/attachments/original/1635423061/Telepaideia_header.jpg?1635423061
 color: na
 author: Tom Hendrickson
