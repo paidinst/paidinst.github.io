@@ -7,6 +7,8 @@ permalink: about
 update: 2022-03-24
 ---
 
+### Jump to Contents
+
 - [About](/)
 - [Mission](/)
 - [Living Latin & Ancient Greek](/)
