@@ -7,6 +7,12 @@ permalink: about
 update: 2022-03-24
 ---
 
+- [About](/)
+- [Mission](/)
+- [Living Latin & Ancient Greek](/)
+- [Diversity and Inclusion](/)
+- [People](/)
+
 The Paideia Institute for Humanistic Study, Inc. is a non-profit educational organization dedicated to promoting the study and appreciation of the classical humanities, with a focus on Latin and Ancient Greek languages and literature.
 
 The Institute was founded in 2010 by former students of the Vatican Latinist Fr. Reginald Foster, who taught generations of Latin students to love the Latin language and the city of Rome.  Paideia’s goal at its foundation was to continue the tradition of Fr. Foster’s beloved course. 
@@ -55,7 +61,6 @@ The Institute also runs several programs and curricular initiatives designed to 
 - James Hankins
 - Lily Li
 - Ben Marrow (Finance Committee Chair)
-- Deryk Makgill
 - S. Georgia Nugent
 - Jonathan Sabo
 - Aparna Seethepalli
